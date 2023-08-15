@@ -1,0 +1,69 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
+		"strictFunctionTypes": false,
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"allowJs": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"experimentalDecorators": true,
+		"lib": [
+			"dom",
+			"esnext"
+		],
+		"types": [
+			"vite/client",
+			"element-plus/global",
+			"node"
+		],
+		"typeRoots": [
+			"./node_modules/@types/",
+			"./types"
+		],
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"paths": {
+			//别名设置
+			"@/*": [
+				"src/*"
+			],
+			"components": [
+				"src/components"
+			],
+			"views": [
+				"src/views"
+			],
+			"utils": [
+				"src/utils"
+			],
+			"apis": [
+				"src/api"
+			],
+			"images": [
+				"./src/assets/images"
+			]
+		}
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.d.ts",
+		"src/**/*.tsx",
+		"src/**/*.vue",
+		"auto-imports.d.ts",
+		"components.d.ts",
+		"vite.config.ts",
+	],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}

@@ -1,0 +1,1 @@
+import{f as c,h as o,j as s,G as u,u as f}from"./vue-8b05e553.js";function _(a,e,n,r){return!a||!r||!n||!e?"":a.find(t=>+t[e]==+r)[n]||""}const p={__name:"dragSelect",setup(a){return(e,n)=>(c(),o("div",null,[s("div",null,u(f(_)([{a:1,n:"hhh"},{a:2}],"1","n","a")),1)]))}};export{p as default};
